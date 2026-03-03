@@ -1,5 +1,3 @@
-'use client';
-
 import { CustomerField, InvoiceForm } from '@/app/lib/definitions';
 import {
   CheckIcon,
@@ -23,3 +21,4 @@ export default function EditInvoiceForm({
   return <form action={updateInvoiceWithId}>{/* ... */}</form>;
 
 }
+
